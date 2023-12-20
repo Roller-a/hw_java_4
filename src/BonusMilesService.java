@@ -1,7 +1,7 @@
 public class BonusMilesService {
-    public int calculate(int a) {
+    public int calculate(int TicketPrice) {
         int FreeMilesForFlights;
-        FreeMilesForFlights = a / 20;
+        FreeMilesForFlights = TicketPrice / 20;
         return FreeMilesForFlights;
     }
 }
